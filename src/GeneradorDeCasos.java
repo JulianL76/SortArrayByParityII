@@ -29,7 +29,8 @@ public class GeneradorDeCasos {
 
     /**
      * Caso 1.
-     * Genera e imprime un arreglo de de enteros desordenados con igual numero de pares e impares 
+     * Genera e imprime un arreglo de de enteros desordenados con igual numero de pares e impares
+     * Example: [5, 4, 3, 2] , [27, 12, 10, 43] , [34, 34, 27, 17, 8, 15].
      */
     public static void generarCaso1() {
         ArrayList<Integer> lista = new ArrayList<>();
@@ -51,7 +52,8 @@ public class GeneradorDeCasos {
    
     /**
      * Caso 2.
-     * Genera e imprime un arreglo de enteros mitad numeros pares seguido de la mitad de numeros impares. 
+     * Genera e imprime un arreglo de enteros mitad numeros pares seguido de la mitad de numeros impares.
+     * Example: [2, 4, 3, 5] , [10, 12, 27, 43] , [34, 34, 8, 17, 27, 15].
      */
     public static void generarCaso2() {
         ArrayList<Integer> lista = new ArrayList<>();
@@ -72,6 +74,7 @@ public class GeneradorDeCasos {
     /**
      * Caso 3.
      * Genera e imprime un arreglo de enteros mitad numeros impares seguido de la mitad de numeros pares. 
+     * Example: [3, 5, 2, 4] , [27, 43, 10, 12] , [17, 27, 15, 34, 34, 8].
      */
     public static void generarCaso3() {
         ArrayList<Integer> lista = new ArrayList<>();
@@ -92,6 +95,7 @@ public class GeneradorDeCasos {
     /**
      * Caso 4.
      * Genera e imprime un arreglo de enteros con numeros pares en pocisiones impares y numeros impares en pocisiones pares. 
+     * Example: [3, 2, 5, 4] , [27, 10, 43, 12] , [17, 34, 15, 34, 27, 8].
      */
     public static void generarCaso4() {
         ArrayList<Integer> lista = new ArrayList<>();
@@ -113,6 +117,7 @@ public class GeneradorDeCasos {
      /**
      * Caso 5.
      * Genera e imprime un arreglo de enteros con numeros pares en pocisiones pares y numeros impares en pocisiones impares. 
+     * Example: [2, 5, 4, 5] , [10, 43, 12, 27] , [34, 27, 8, 17, 34, 15].
      */
     public static void generarCaso5() {
         ArrayList<Integer> lista = new ArrayList<>();
